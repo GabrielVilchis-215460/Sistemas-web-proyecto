@@ -13,11 +13,10 @@
     <nav class ="container">
       <div class="menu">
         <li><a href="#inicio" onclick="mostrarCarga(event)">Inicio</a></li>
-    <li><a href="#historia" onclick="mostrarCarga(event)">Historia</a></li>
-    <li><a href="#eventos" onclick="mostrarCarga(event)">Eventos</a></li>
-    <li><a href="#ubicaciones" onclick="mostrarCarga(event)">Ubicaciones</a></li>
-        
-
+        <li><a href="#historia" onclick="mostrarCarga(event)">Historia</a></li>
+        <li><a href="#eventos" onclick="mostrarCarga(event)">Eventos</a></li>
+        <li><a href="#ubicaciones" onclick="mostrarCarga(event)">Ubicaciones</a></li>
+        <li><a href="#contacto" onclick="mostrarCarga(event)">Contacto</a></li>
       </div>
     </nav>
     <h1>Dia de las madres</h1>
@@ -61,6 +60,30 @@
          referrerpolicy="no-referrer-when-downgrade"
       </iframe>
 
+    </section>
+    <section>
+      <h2>Contacto</h2>
+      <div class="formulario-contacto">
+        <form method="POST" action="">
+          <label for="nombre">Nombre: </label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="correo">Correo electronico: </label>
+          <input type="email" id="correo" name="correo" required>
+
+          <label for="telefono">Numero telefonico: </label>
+          <input type="number" id="numero" name="numero" required>
+
+          <label for="asunto">Asunto: </label>
+          <input type="text" id="asunto" name="asunto" required>
+
+          <label for="mensaje">Mensaje: </label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+          <button type="submit">Enviar datos</button>
+          
+        </form>
+      </div>
     </section>
   </main>
 
