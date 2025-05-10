@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dia_de_las_madres</title>
-  <link rel="stylesheet" href="Dising.css" />
+  <link rel="stylesheet" href="./css/Desing.css" />
  
 </head>
 <body>
@@ -51,6 +51,7 @@
     </section>
     <section> 
         Ubicaciones.
+        <button id="mapa" onclick="GeoLocalization()")>Obtener ubicacion</button>
     </section>
   </main>
 
@@ -58,23 +59,6 @@
     <p>&copy; Leonardo Chávez Monge. 214590</p>
     <p>&copy; Gabriel Alberto Vilchis Rios. 215460</p>
   </footer>
-  <script>
-    function mostrarCarga(event) {
-      event.preventDefault(); // evita el salto inmediato
-  
-      const loader = document.getElementById('svgLoader');
-      loader.classList.add('active');
-  
-      const targetId = event.target.getAttribute('href');
-  
-      // Espera antes de navegar a la sección
-      setTimeout(() => {
-        loader.classList.remove('active');
-        window.location.href = targetId;
-      }, 1500); // 1.5 segundos de "carga"
-    }
-  </script>
-  
-  <script src="script.js"></script>
+  <script src="/js/script.js"></script>
 </body>
 </html>
