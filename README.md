@@ -3,7 +3,7 @@
 ### Instrucciones del proyecto 
 Desarrollar una página para promocionar alguna de las siguientes festividades
 
-3.- Día de las madres
+3.- Día de las madres 
 
 La página desarrollada debe contar con un mínimo de 4 secciones y debe incluir como mínimo:
 

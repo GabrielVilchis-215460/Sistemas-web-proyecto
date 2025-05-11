@@ -9,7 +9,6 @@
 </head>
 <body>
   <header>
-   
     <nav class ="container">
       <div class="menu">
         <li><a href="#inicio" onclick="mostrarCarga(event)">Inicio</a></li>
@@ -28,42 +27,63 @@
     </svg>
   </div>
   <main>
-    <section>
+    <section class="inicio">
       <h2>Inicio</h2>
-      <p>Hola a todos y bienvenidos a esta página dedicada a una de las personas más importantes en nuestras vidas: nuestras madres. Hoy queremos rendir un homenaje sincero a ese amor inquebrantable, a la fuerza silenciosa y al cuidado constante que solo una madre sabe dar. Aquí encontrarás palabras, ideas y detalles pensados para expresar todo lo que muchas veces no decimos, pero siempre sentimos. Porque el Día de las Madres es más que una fecha, es una oportunidad para reconocer su valor con todo el respeto y cariño que se merecen.
-      
-    </p>
-        <p>
-            Para devolverles un poco de todo lo que nos ahn brindado, hermos creado esta pagina para poder hacer eventos de convivio donde habrá maricahi, rifas y demas!
+      <p>Hola a todos y bienvenidos a esta página dedicada a una de las personas más importantes en nuestras vidas: 
+      nuestras madres. Hoy queremos rendir un homenaje sincero a ese amor inquebrantable, a la fuerza silenciosa y al 
+      cuidado constante que solo una madre sabe dar. Aquí encontrarás palabras, ideas y detalles pensados para expresar 
+      todo lo que muchas veces no decimos, pero siempre sentimos. Porque el Día de las Madres es más que una fecha, 
+      es una oportunidad para reconocer su valor con todo el respeto y cariño que se merecen.</p>
 
-        </p>
+      <p>Para devolverles un poco de todo lo que nos han brindado, hermos creado esta pagina para poder hacer eventos 
+      de convivio donde habrá maricahi, rifas y demas!</p>
+
+      <audio autoplay loop src="./media/cancion1.mp3"></audio>
+      <video width="400" height="400" src="./media/FELIZ DÍA DE LA MADRE PARA TI 🌹💝💐🎁.mp4" muted autoplay></video>
+
       <canvas id="canvas1" width="200" height="200"></canvas>
       <canvas id="canvas2" width="200" height="200"></canvas>
-      <canvas id="canvas3" width="200" height="200"></canvas>
       <canvas id="canvas4" width="200" height="200"></canvas>  
         
     </section>
-    <section>
+    <section class="historia">
         <h2>Historia</h2>
         <p> Historias perronas.</p>
+        <p>El dia de las madres tiene origines antiguos, desde celebraciones griegas y romanas dedicadas a diosas madres.
+        En Europa, durante el siglo XVII, surgio el "domingo de las madres", en honor a la virgen Maria. </p>
+        <br>
+        <p>La celebracion moderna comenzo aproximadamente en 1908 en Estados unidos, gracias a Anna Jarvis, quien fue la responsable de 
+        promover un dia especial para honrar a las madres. En 1914, se hizo oficial como un dia festivo nacional</p>
+        <br>
+        <p>Esta fecha no solamente es una tradicion, si no que es un momento especial para agredecer a quienes han estado siempre con nosotros, 
+        en cada paso, en cada caida, en cada logro. En escualas, hogares, centros de trabajo y corazones, este dia resuena como simbolo de
+        cariño y de reconocimiento.
+        </p>
+        <br>
+        <p>En Mexico, el dia de las madres se celebra con flores, canciones, abrazos, y sobre todo, con el amor sincero de quienes reconocen la
+        entrega de una madre. Ya sea con un regalo, una comida en familia o simplemente una llamada, cada detalle cuenta.
+        </p>
+        <br>
+        <p><strong>Feliz dia de las madres. Hoy y siempre.</strong></p>
+        <canvas id="canvas3" width="200" height="200"></canvas>
     </section>
-    <section>
+    <section class="eventos">
         <h2>Eventos</h2>
     </section>
-    <section> 
-        Ubicaciones.
+    <section class="ubicaciones"> 
+        <h2>Ubicaciones</h2>
         <button id="mapa" onclick="GeoLocalization()">Obtener informacion de la ubicacion</button>       
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.154764339938!2d-106.41737402429942!3d31.492429574226755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e76599cc1bc6df%3A0x221e2b7b0cb7d301!2sUACJ%20-%20Ciudad%20Universitaria!5e0!3m2!1ses-419!2smx!4v1746867635881!5m2!1ses-419!2smx">
-          width="1500"
+        width="1500"
          height="1500"
          style="border:0;" 
          allowfullscreen="" 
          loading="lazy" 
          referrerpolicy="no-referrer-when-downgrade"
       </iframe>
-
     </section>
-    <section>
+    
+    <section class="contacto">
       <h2>Contacto</h2>
       <div class="formulario-contacto">
         <form method="POST" action="">
