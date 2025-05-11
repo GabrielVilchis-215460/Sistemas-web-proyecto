@@ -3,13 +3,13 @@
 ### Instrucciones del proyecto 
 Desarrollar una página para promocionar alguna de las siguientes festividades
 
-3.- Día de las madres 
+3.- Día de las madres ✅
 
-La página desarrollada debe contar con un mínimo de 4 secciones y debe incluir como mínimo:
+La página desarrollada debe contar con un mínimo de 4 secciones y debe incluir como mínimo:✅
 
-*Estructura básica
+*Estructura básica✅
 
-   -Etiquetas necesarias
+   -Etiquetas necesarias✅
 
 *Encabezado
 
@@ -17,33 +17,33 @@ La página desarrollada debe contar con un mínimo de 4 secciones y debe incluir
 
    -Hiperenlaces (internos, externos o mixtos)
 
-*Pie
+*Pie✅
 
-   -Con datos de los autores
+   -Con datos de los autores✅
 
-*Formulario
+*Formulario✅
 
-   -Formulario de contacto
+   -Formulario de contacto✅
 
-*Estilos de cascada
+*Estilos de cascada✅
 
-   -Fondo, fuente, color, sombras, etc.
+   -Fondo, fuente, color, sombras, etc.✅
 
-*Animaciones
+*Animaciones✅
 
-   -Mínimo una animación
+   -Mínimo una animación✅
 
-*Audio 
+*Audio ✅
 
-   -Mínimo un audio
+   -Mínimo un audio✅
 
 *Video
 
-   -Mínimo un video
+   -Mínimo un video✅
 
-*Canvas
+*Canvas✅
 
-   -Mínimo 2 elementos canvas
+   -Mínimo 2 elementos canvas✅
 
 *SVG
 
@@ -51,10 +51,10 @@ La página desarrollada debe contar con un mínimo de 4 secciones y debe incluir
 
 *Geolocalización
 
-   -Indicando el lugar donde se encuentra CU en el mapa
+   -Indicando el lugar donde se encuentra CU en el mapa✅
 
 **Pueden utilizar una herramienta WYSIWYG como Dreamweaver para desarrollar su página
 
-**Anexar las imágenes, audios y videos utilizados
+**Anexar las imágenes, audios y videos utilizados✅
 
 **Enviar todos los archivos utilizados en una carpeta comprimida
