@@ -10,13 +10,13 @@
 <body>
   <header>
     <nav class ="container">
-      <div class="menu">
+      <ul class="menu">
         <li><a href="#inicio" onclick="mostrarCarga(event)">Inicio</a></li>
+        <li><a href="#frases" onclick="mostrarCarga(event)"></a></li>
         <li><a href="#historia" onclick="mostrarCarga(event)">Historia</a></li>
         <li><a href="#eventos" onclick="mostrarCarga(event)">Eventos</a></li>
-        <li><a href="#ubicaciones" onclick="mostrarCarga(event)">Ubicaciones</a></li>
         <li><a href="#contacto" onclick="mostrarCarga(event)">Contacto</a></li>
-      </div>
+      </ul>
     </nav>
     <h1>Dia de las madres</h1>
   </header>
@@ -26,65 +26,121 @@
       <rect x="10" y="10" width="80" height="80" fill="#6A4D0E" stroke="#FBBBBB" stroke-width="5"/>
     </svg>
   </div>
+
   <main>
-    <section class="inicio">
+    <section id="inicio" class="inicio">
       <h2>Inicio</h2>
-      <p>Hola a todos y bienvenidos a esta página dedicada a una de las personas más importantes en nuestras vidas: 
-      nuestras madres. Hoy queremos rendir un homenaje sincero a ese amor inquebrantable, a la fuerza silenciosa y al 
-      cuidado constante que solo una madre sabe dar. Aquí encontrarás palabras, ideas y detalles pensados para expresar 
-      todo lo que muchas veces no decimos, pero siempre sentimos. Porque el Día de las Madres es más que una fecha, 
-      es una oportunidad para reconocer su valor con todo el respeto y cariño que se merecen.</p>
-
-      <p>Para devolverles un poco de todo lo que nos han brindado, hermos creado esta pagina para poder hacer eventos 
-      de convivio donde habrá maricahi, rifas y demas!</p>
-
-      <audio autoplay loop src="./media/cancion1.mp3"></audio>
-      <video width="400" height="400" src="./media/FELIZ DÍA DE LA MADRE PARA TI 🌹💝💐🎁.mp4" muted autoplay></video>
-
-      <canvas id="canvas1" width="200" height="200"></canvas>
-      <canvas id="canvas2" width="200" height="200"></canvas>
-      <canvas id="canvas4" width="200" height="200"></canvas>  
-        
+      <div class="intro-contenido">
+        <div class="intro-texto">
+          <p>Hola a todos y bienvenidos a esta página dedicada a una de las personas más importantes en nuestras vidas: 
+          nuestras madres. Hoy queremos rendir un homenaje sincero a ese amor inquebrantable, a la fuerza silenciosa y al 
+          cuidado constante que solo una madre sabe dar. Aquí encontrarás palabras, ideas y detalles pensados para expresar 
+          todo lo que muchas veces no decimos, pero siempre sentimos. Porque el Día de las Madres es más que una fecha, 
+          es una oportunidad para reconocer su valor con todo el respeto y cariño que se merecen. Para devolverles un poco 
+          de todo lo que nos han brindado, hemos creado esta página para poder hacer eventos de convivio donde habrá mariachi, 
+          rifas y demás!</p>
+        </div>
+        <div class="intro-imagen">
+            <img src="./media/img1.jpg">
+        </div>
+      </div>
     </section>
-    <section class="historia">
-        <h2>Historia</h2>
-        <p> Historias perronas.</p>
-        <p>El dia de las madres tiene origines antiguos, desde celebraciones griegas y romanas dedicadas a diosas madres.
-        En Europa, durante el siglo XVII, surgio el "domingo de las madres", en honor a la virgen Maria. </p>
-        <br>
-        <p>La celebracion moderna comenzo aproximadamente en 1908 en Estados unidos, gracias a Anna Jarvis, quien fue la responsable de 
-        promover un dia especial para honrar a las madres. En 1914, se hizo oficial como un dia festivo nacional</p>
-        <br>
-        <p>Esta fecha no solamente es una tradicion, si no que es un momento especial para agredecer a quienes han estado siempre con nosotros, 
-        en cada paso, en cada caida, en cada logro. En escualas, hogares, centros de trabajo y corazones, este dia resuena como simbolo de
-        cariño y de reconocimiento.
-        </p>
-        <br>
-        <p>En Mexico, el dia de las madres se celebra con flores, canciones, abrazos, y sobre todo, con el amor sincero de quienes reconocen la
-        entrega de una madre. Ya sea con un regalo, una comida en familia o simplemente una llamada, cada detalle cuenta.
-        </p>
-        <br>
-        <p><strong>Feliz dia de las madres. Hoy y siempre.</strong></p>
-        <canvas id="canvas3" width="200" height="200"></canvas>
-    </section>
-    <section class="eventos">
-        <h2>Eventos</h2>
-    </section>
-    <section class="ubicaciones"> 
-        <h2>Ubicaciones</h2>
-        <button id="mapa" onclick="GeoLocalization()">Obtener informacion de la ubicacion</button>       
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.154764339938!2d-106.41737402429942!3d31.492429574226755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e76599cc1bc6df%3A0x221e2b7b0cb7d301!2sUACJ%20-%20Ciudad%20Universitaria!5e0!3m2!1ses-419!2smx!4v1746867635881!5m2!1ses-419!2smx">
-        width="1500"
-         height="1500"
-         style="border:0;" 
-         allowfullscreen="" 
-         loading="lazy" 
-         referrerpolicy="no-referrer-when-downgrade"
-      </iframe>
+
+    <section id="frases" class="frases">
+      <div class="frases-container">
+        <div class="frases-media">
+          <video width="300" height="300" src="./media/FELIZ DÍA DE LA MADRE PARA TI 🌹💝💐🎁.mp4" muted autoplay></video>
+          <img src="./media/img3.jpg">
+        </div>
+        <div class="frases-texto"> 
+            <h2>Frases</h2>
+            <ul>
+              <li>Ser mamá no es un rol, es un superpoder. ¡Gracias por ser mi heroína todos los días!</li>
+              <li>Tu amor es el motor que me impulsa a ser mejor. ¡Feliz Día, mamá luchadora!</li>
+              <li>Gracias por enseñarme que no hay límites cuando el corazón es fuerte.</li>
+              <li>Mamá, tu valentía me enseñó a levantarme incluso en mis peores días.</li>
+              <li>La fuerza más grande que conozco tiene tu nombre: mamá.</li>
+              <li>Tú no solo diste vida, diste coraje, esperanza y dirección.</li>
+              <li>Mamá, tu ejemplo es la brújula que guía cada paso que doy.</li>
+              <li>Eres prueba viviente de que el amor todo lo puede.</li>
+              <li>Gracias por levantarme cuando ni yo creía en mí.</li>
+              <li>Tus palabras han sido siempre mi refugio y mi impulso.</li>
+              <li>Ser madre es amar sin medida, luchar sin pausa y sonreír sin condiciones.</li>
+              <li>Contigo aprendí que la verdadera fuerza se esconde en el corazón.</li>
+              <li>Gracias por no rendirte nunca, ni siquiera cuando yo lo hacía.</li>
+              <li>Tu luz sigue alumbrando mis días, incluso cuando estás lejos.</li>
+              <li>Mamá, tu fe en mí fue el primer paso hacia mis logros.</li>
+              <li>No hay desafío que no pueda enfrentar si escucho tu voz dentro de mí.</li>
+              <li>Cada consejo tuyo es una semilla que florece en mi vida.</li>
+              <li>El amor de una madre es la fuerza más poderosa del universo.</li>
+            </ul>
+        </div>
+      </div>   
     </section>
     
-    <section class="contacto">
+    <section id="historia" class="historia">
+      <h2>Historia</h2>
+
+      <div class="historia-bloque-principal">
+        <div class="historia-texto">
+          <p>El día de las madres tiene orígenes antiguos, desde celebraciones griegas y romanas dedicadas a diosas madres. 
+            En Europa, durante el siglo XVII, surgió el "domingo de las madres", en honor a la Virgen María.</p>
+          <br>
+          <p>El origen de la fecha se basa, entonces, en una festividad de la Iglesia Católica. El Papa Pío XI, en 1931, dedicó 
+            el 11 de octubre a la "Divina Maternidad de María" como recuerdo de que 1500 años antes, en 431, el Concilio de Éfeso
+            había proclamado a María la verdadera Madre de Cristo</p>
+          <br>
+          <p>La celebración moderna comenzó aproximadamente en 1908 en Estados Unidos, gracias a Anna Jarvis, quien fue la 
+            responsable de promover un día especial para honrar a las madres. En 1914, se hizo oficial como un día festivo nacional.</p>
+          <br>
+          <p>Esta fecha no solamente es una tradición, sino que es un momento especial para agradecer a quienes han estado 
+            siempre con nosotros, en cada paso, en cada caída, en cada logro. En escuelas, hogares, centros de trabajo y corazones, 
+            este día resuena como símbolo de cariño y de reconocimiento.</p>
+          <br>
+          <p>
+            La tradición de celebrar a las madres en México tiene un origen que se remonta a 1922, cuando Rafael Alducin, director del 
+            diario Excélsior, promovió la instauración de esta festividad a nivel nacional, según la revista UNAM Global de la Universidad 
+            Nacional Autónoma de México (UNAM).
+          </p>
+          <p>En México, el día de las madres se celebra con flores, canciones, abrazos y, sobre todo, con el amor sincero de quienes 
+            reconocen la entrega de una madre. Ya sea con un regalo, una comida en familia o simplemente una llamada, cada detalle cuenta.</p>
+          <br>
+          <p><strong>Feliz día de las madres. Hoy y siempre.</strong></p>
+        </div>
+
+        <div class="historia-media">
+          <img src="./media/img2.jpeg" alt="Celebración del Día de las Madres">
+        </div>
+      </div>
+    </section>
+    
+    <section id="eventos" class="eventos"> 
+        <h2>Eventos</h2>
+        <button id="mapa" onclick="GeoLocalization()">Obtener informacion de la ubicacion</button>       
+        
+        <p></p>
+
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.154764339938!2d-106.41737402429942!3d31.492429574226755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e76599cc1bc6df%3A0x221e2b7b0cb7d301!2sUACJ%20-%20Ciudad%20Universitaria!5e0!3m2!1ses-419!2smx!4v1746867635881!5m2!1ses-419!2smx"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+      <p></p>
+      
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.0424192100973!2d-106.43315779999999!3d31.742043099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea4359ba3469d5%3A0x5fdab3bc5a4f953c!2sUACJ%20Campus%20IIT-IADA!5e0!3m2!1sen!2smx!4v1747076772914!5m2!1sen!2smx" 
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"></iframe>      
+    </section>
+    
+    <section id="contacto" class="contacto">
       <h2>Contacto</h2>
+      <div class="canvas-row">
+        <canvas id="canvas1" width="200" height="200"></canvas>
+        <canvas id="canvas3" width="200" height="200"></canvas>
+      </div>
+      
       <div class="formulario-contacto">
         <form method="POST" action="">
           <label for="nombre">Nombre: </label>
@@ -105,6 +161,11 @@
           <button type="submit">Enviar datos</button>
           
         </form>
+
+        <div class="canvas-row">
+            <canvas id="canvas4" width="200" height="200"></canvas>  
+            <canvas id="canvas2" width="200" height="200"></canvas>
+        </div>
       </div>
     </section>
   </main>
